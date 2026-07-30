@@ -129,7 +129,7 @@ Service Required : ${service}
 
 Preferred Budget : ${budget}
 
-Message : ${message};
+Message : ${message}';
 
 
 let url =
