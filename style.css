@@ -403,3 +403,10 @@ line-height:1.8;
     width: 90%;
     max-width: 600px;
 }
+#successMessage{
+    color: #FFD700;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
