@@ -1,0 +1,379 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background-color:black;
+color:white;
+line-height:1.7;
+}
+
+
+/* HERO SECTION */
+
+.hero{
+text-align:center;
+padding:100px 20px;
+background:linear-gradient(to right,#000,#1c1c1c);
+}
+
+
+.hero h1{
+font-size:55px;
+color:gold;
+}
+
+
+.hero h3{
+font-size:28px;
+margin-top:10px;
+}
+
+
+.hero p{
+margin-top:15px;
+font-size:22px;
+}
+
+
+button{
+padding:15px 30px;
+margin:15px;
+border:none;
+border-radius:30px;
+background:gold;
+color:black;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+transition:0.5s;
+}
+
+
+button:hover{
+background:white;
+transform:scale(1.1);
+}
+
+
+
+/* SERVICES */
+
+.services{
+
+padding:60px 20px;
+text-align:center;
+
+}
+
+
+.services h2{
+
+color:gold;
+margin-bottom:30px;
+
+}
+
+
+.services li{
+
+list-style:none;
+padding:12px;
+
+}
+
+
+
+/* WHY CHOOSE US */
+
+.why{
+
+padding:60px 20px;
+text-align:center;
+
+}
+
+
+.why h2{
+
+color:gold;
+margin-bottom:30px;
+
+}
+
+
+.why li{
+
+list-style:none;
+padding:12px;
+
+}
+
+
+
+/* GALLERY */
+
+.gallery{
+
+padding:60px 20px;
+text-align:center;
+
+}
+
+
+.gallery h2{
+
+color:gold;
+margin-bottom:25px;
+
+}
+
+
+.gallery p{
+
+padding:12px;
+
+}
+
+
+
+/* CONTACT */
+
+#contact{
+
+padding:60px 20px;
+text-align:center;
+
+}
+
+
+#contact h2{
+
+color:gold;
+margin-bottom:25px;
+
+}
+
+
+
+/* FOOTER */
+
+footer{
+
+background:#111;
+text-align:center;
+padding:25px;
+margin-top:30px;
+
+}
+
+
+
+/* MOBILE VIEW */
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:35px;
+
+}
+
+
+.hero h3{
+
+font-size:20px;
+
+}
+
+
+.hero p{
+
+font-size:18px;
+
+}
+
+
+button{
+
+width:90%;
+
+}
+
+}
+/* Floating WhatsApp Button */
+
+.whatsapp-float{
+
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 0 10px gray;
+z-index:1000;
+
+}
+
+.whatsapp-float:hover{
+
+transform:scale(1.1);
+transition:0.5s;
+
+}
+/******** IMAGE SLIDER ********/
+
+.slider{
+
+width:100%;
+padding:20px;
+text-align:center;
+
+}
+
+
+.slider img{
+
+width:95%;
+height:350px;
+object-fit:cover;
+border-radius:20px;
+box-shadow:0 0 20px gold;
+
+}
+/* FREE QUOTE FORM */
+
+.quote-form{
+
+padding:60px 20px;
+text-align:center;
+
+}
+
+
+.quote-form h2{
+
+color:gold;
+margin-bottom:30px;
+
+}
+
+
+.quote-form input,
+.quote-form textarea,
+.quote-form select{
+
+width:90%;
+max-width:600px;
+padding:15px;
+margin:12px;
+border-radius:10px;
+border:none;
+outline:none;
+font-size:16px;
+
+}
+
+
+.quote-form textarea{
+
+height:120px;
+resize:none;
+
+}
+
+
+.quote-form button{
+
+background:gold;
+color:black;
+font-weight:bold;
+
+}
+/* CUSTOMER REVIEWS */
+
+.reviews{
+
+padding:70px 20px;
+text-align:center;
+
+}
+
+
+.reviews h2{
+
+color:gold;
+margin-bottom:40px;
+
+}
+
+
+.review-card{
+
+background:#111;
+padding:30px;
+margin:20px auto;
+max-width:700px;
+border-radius:20px;
+box-shadow:0 0 15px gold;
+
+}
+
+
+.review-card h3{
+
+font-size:30px;
+color:gold;
+
+}
+
+
+.review-card p{
+
+margin-top:15px;
+line-height:1.8;
+
+}
+
+
+.review-card h4{
+
+margin-top:15px;
+color:gold;
+
+}
+/* PREMIUM FOOTER */
+
+.premium-footer{
+
+padding:60px 20px;
+text-align:center;
+background:#000;
+border-top:2px solid gold;
+margin-top:50px;
+
+}
+
+
+.premium-footer h2{
+
+color:gold;
+margin-bottom:20px;
+font-size:35px;
+
+}
+
+
+.premium-footer p{
+
+margin-top:10px;
+line-height:1.8;
+
+}
