@@ -119,10 +119,4 @@ let url = "https://wa.me/919122129633?text="
 + encodeURIComponent(whatsappMessage);
 
 window.open(url, "_blank");
-
-// Success Message
-document.getElementById("successMessage").innerText =
-"Thank You! We'll contact you soon.";
-
-// Form Reset
 document.getElementById("quoteForm").reset();
