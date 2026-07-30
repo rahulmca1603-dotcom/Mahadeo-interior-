@@ -120,4 +120,10 @@ let url = "https://wa.me/919122129633?text="
 
 window.open(url, "_blank");
 
+// Success Message
+alert("Thank You! We'll contact you soon.");
+
+// Form ko empty karne ke liye
+document.getElementById("quoteForm").reset();  
+
 });
