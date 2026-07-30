@@ -89,58 +89,35 @@ document.getElementById("slide-image").src=images[i];
 
 },3000);
 // FREE QUOTE FORM
-
-document
-.getElementById("quoteForm")
-.addEventListener("submit",
-
-function(e){
+document.getElementById("quoteForm")
+.addEventListener("submit", function(e) {
 
 e.preventDefault();
 
-let name =
-document.getElementById("name").value;
+let name = document.getElementById("name").value;
+let mobile = document.getElementById("mobile").value;
+let city = document.getElementById("city").value;
+let service = document.getElementById("service").value;
+let budget = document.getElementById("budget").value;
+let message = document.getElementById("message").value;
 
-let mobile =
-document.getElementById("mobile").value;
-
-let city =
-document.getElementById("city").value;
-
-let service =
-document.getElementById("service").value;
-let budget =
-document.getElementById("budget").value;
-
-let message =
-document.getElementById("message").value;
-
-
-let whatsappMessage =
-
-`Hello Mahadeo Interior,
+let whatsappMessage = `Hello Mahadeo Interior,
 
 Name : ${name}
 
 Mobile : ${mobile}
 
 City : ${city}
+
 Service Required : ${service}
 
 Preferred Budget : ${budget}
 
 Message : ${message}`;
 
+let url = "https://wa.me/919122129633?text="
++ encodeURIComponent(whatsappMessage);
 
-let url =
-
-"https://wa.me/919122129633?text="
-
-+ encodeURIComponent
-(whatsappMessage);
-
-
-window.open(url,"_blank");
-
+window.open(url, "_blank");
 
 });
