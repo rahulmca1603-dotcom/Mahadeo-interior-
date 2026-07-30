@@ -286,16 +286,24 @@ font-size:16px;
 
 height:120px;
 resize:none;
+display:block;
 
 }
 
 
 .quote-form button{
-
-background:gold;
-color:black;
-font-weight:bold;
-
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 15px auto;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background: gold;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
 }
 /* CUSTOMER REVIEWS */
 
@@ -383,4 +391,15 @@ line-height:1.8;
     display:block;
     margin:0 auto 20px;
     border-radius:50%;
+}
+.quote-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-form textarea,
+.quote-form button{
+    width: 90%;
+    max-width: 600px;
 }
