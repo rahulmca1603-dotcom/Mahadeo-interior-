@@ -462,3 +462,65 @@ line-height:1.8;
     }
 
 }
+/* Premium Logo */
+
+.logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.logo img{
+    width:140px;
+    border-radius:50%;
+    box-shadow:0 0 20px gold;
+    animation: logoFloat 4s ease-in-out infinite;
+    transition:0.5s;
+}
+
+/* Hover Effect */
+
+.logo img:hover{
+    transform:scale(1.08);
+    box-shadow:0 0 35px gold;
+}
+
+/* Floating Animation */
+
+@keyframes logoFloat{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-12px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+}
+
+.logo img{
+    animation:
+    logoFloat 4s ease-in-out infinite,
+    glow 2s infinite alternate;
+}
+
+
+@keyframes glow{
+
+    from{
+        box-shadow:
+        0 0 15px gold;
+    }
+
+    to{
+        box-shadow:
+        0 0 35px gold,
+        0 0 50px gold;
+    }
+
+}
