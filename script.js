@@ -122,3 +122,4 @@ let url =
 window.location.href = url;
 
 document.getElementById("quoteForm").reset();
+});
