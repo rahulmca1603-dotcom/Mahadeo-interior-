@@ -118,8 +118,14 @@ Message : ${message}`;
 let url =
 "https://wa.me/919122129633?text="
 + encodeURIComponent(whatsappMessage);
+document.getElementById("successMessage").innerHTML =
+"Thank You! We'll contact you soon.";
+
+setTimeout(function(){
 
 window.location.href = url;
+
+},2000);
 
 document.getElementById("quoteForm").reset();
 });
