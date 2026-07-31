@@ -1,10 +1,3 @@
-// Welcome Message
-
-window.onload = function () {
-
-alert("Welcome to Mahadeo Interior | Design & Decor");
-
-};
 
 
 // Smooth Scrolling
