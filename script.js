@@ -129,3 +129,8 @@ window.location.href = url;
 
 document.getElementById("quoteForm").reset();
 });
+setTimeout(function(){
+
+document.getElementById("loader").style.display="none";
+
+},3000);
