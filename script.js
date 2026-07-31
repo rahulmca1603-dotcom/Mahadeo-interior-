@@ -115,8 +115,10 @@ Preferred Budget : ${budget}
 
 Message : ${message}`;
 
-let url = "https://wa.me/919122129633?text="
+let url =
+"https://wa.me/919122129633?text="
 + encodeURIComponent(whatsappMessage);
 
-window.open(url, "_blank");
+window.location.href = url;
+
 document.getElementById("quoteForm").reset();
